@@ -4,7 +4,7 @@
  *
  * Format:
  *   AI_PROVIDER=anthropic
- *   AI_MODEL=claude-sonnet-4-20250514
+ *   AI_MODEL=claude-sonnet-5-5
  *   AI_KEY_ANTHROPIC=sk-ant-...
  *   AI_KEY_OPENAI=sk-...
  */

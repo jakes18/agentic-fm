@@ -73,7 +73,7 @@ function streamAnthropic(
     .map(m => ({ role: m.role, content: m.content }));
 
   const payload = JSON.stringify({
-    model: model || 'claude-sonnet-4-20250514',
+    model: model || 'claude-sonnet-5-5',
     max_tokens: 4096,
     temperature: 0.3,
     system: systemMessage,
