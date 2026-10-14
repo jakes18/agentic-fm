@@ -3,10 +3,12 @@ import type { AIProvider, AIMessage, AIProviderConfig, AIStreamEvent } from '../
 export const anthropicProvider: AIProvider = {
   id: 'anthropic',
   displayName: 'Anthropic',
-  defaultModel: 'claude-sonnet-4-20250514',
+  defaultModel: 'claude-sonnet-4-6',
   models: [
-    'claude-opus-4-20250514',
-    'claude-sonnet-4-20250514',
+    'claude-opus-4-7',
+    'claude-sonnet-4-6',
+    'claude-opus-4-6',
+    'claude-sonnet-4-5',
     'claude-haiku-4-5-20251001',
   ],
 
